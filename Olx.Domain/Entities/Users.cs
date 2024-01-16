@@ -18,5 +18,10 @@ namespace Olx.Domain.Entities
         public int PhoneNumber { get; set; }
 
         public List<Product> Products { get; set; }
+
+        public Users()
+        {
+            Products = new List<Product>();
+        }
     }
 }

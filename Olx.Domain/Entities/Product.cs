@@ -15,7 +15,7 @@ namespace Olx.Domain.Entities
         public int Price { get; set; }
 
         public Category Category { get; set; }
-
+         
         public string Inormation { get; set; }
     }
 }

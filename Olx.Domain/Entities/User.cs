@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Olx.Domain.Entities
 {
-    public class Users : Auditable
+    public class User : Auditable
     {
         public string FirstName { get; set; }
 
@@ -19,7 +19,7 @@ namespace Olx.Domain.Entities
 
         public List<Product> Products { get; set; }
 
-        public Users()
+        public User()
         {
             Products = new List<Product>();
         }

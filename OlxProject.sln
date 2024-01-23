@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.8.34316.72
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OlxProject", "OlxProject\OlxProject.csproj", "{7A973D75-23EF-4218-BC48-A45F2291525A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olx.Project", "OlxProject\Olx.Project.csproj", "{7A973D75-23EF-4218-BC48-A45F2291525A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Domain", "Olx.Domain\Olx.Domain.csproj", "{95CC1B9F-B429-465F-84CE-4D1F92536711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olx.Domain", "Olx.Domain\Olx.Domain.csproj", "{95CC1B9F-B429-465F-84CE-4D1F92536711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Data", "Olx.Data\Olx.Data.csproj", "{6F704317-4635-46F1-BF83-EFADE9EEEB4B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Olx.Data", "Olx.Data\Olx.Data.csproj", "{6F704317-4635-46F1-BF83-EFADE9EEEB4B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Service", "Olx.Service\Olx.Service.csproj", "{8DFDB90D-ECF4-4322-A124-A1DC9A850F01}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Olx.Service", "Olx.Service\Olx.Service.csproj", "{CC5B0A1A-6CE9-4B0D-BC48-2A510F444349}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{6F704317-4635-46F1-BF83-EFADE9EEEB4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6F704317-4635-46F1-BF83-EFADE9EEEB4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6F704317-4635-46F1-BF83-EFADE9EEEB4B}.Release|Any CPU.Build.0 = Release|Any CPU
-		{8DFDB90D-ECF4-4322-A124-A1DC9A850F01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8DFDB90D-ECF4-4322-A124-A1DC9A850F01}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8DFDB90D-ECF4-4322-A124-A1DC9A850F01}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8DFDB90D-ECF4-4322-A124-A1DC9A850F01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC5B0A1A-6CE9-4B0D-BC48-2A510F444349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC5B0A1A-6CE9-4B0D-BC48-2A510F444349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC5B0A1A-6CE9-4B0D-BC48-2A510F444349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC5B0A1A-6CE9-4B0D-BC48-2A510F444349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

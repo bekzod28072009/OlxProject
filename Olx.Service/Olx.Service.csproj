@@ -6,4 +6,9 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\Olx.Data\Olx.Data.csproj" />
+    <ProjectReference Include="..\Olx.Domain\Olx.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
